@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "z2g9ecUhKKphHmc83HUfZXEnfGYi0NdJqA1WlP/b5o6l84v3jYpTaqO9OzNEGSRwWHKX0kCWYmKfpzR1vbjt5Q==",
+  "dgSpecHash": "6A2/2vLMm5XZsfEPrtgENxfLNERkdt9dp9TvHTXLxMFoVbfhmynznScen8PPTVDnjzDu/jYkpoxtVtFzlRjUYA==",
   "success": true,
-  "projectFilePath": "C:\\Documents\\OOP_Uni\\CodeOOPCsharp\\SinhVien\\SinhVien\\SinhVien.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\project SV\\SinhVien_Project\\SinhVien\\SinhVien.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hoang Quoc Phong\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.26\\microsoft.netcore.app.host.win-x64.3.1.26.nupkg.sha512",
+    "C:\\Users\\Hoang Quoc Phong\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Hoang Quoc Phong\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Hoang Quoc Phong\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
