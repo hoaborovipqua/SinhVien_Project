@@ -7,5 +7,6 @@ namespace SinhVien
     class ListGV
     {
         public List<GiangVien> list_GV = new List<GiangVien>();
+        
     }
 }
