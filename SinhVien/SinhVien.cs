@@ -22,5 +22,26 @@ namespace SinhVien
             LH_sv = lH_sv;
         }
         public string MaSV { get => maSV; set => maSV = value; }
+
+        public void nhapSV_Console()
+        {
+            Console.Write("Nhap vao ma so sinh vien: ");
+            this.maSV = Console.ReadLine();
+            this.khoa_sv.nhap_Khoa_Console();
+            this.LH_sv.nhap_LH_Console();
+            Console.Write("Nhap vao ma so dinh danh: ");
+            this.Ssn = Console.ReadLine();
+            Console.Write("Nhap vao ho ten: ");
+            this.HoTen = Console.ReadLine();
+            Console.Write("Nhap vao ngay sinh(dd/mm/yyyy): ");
+            this.NgaySinh = Console.ReadLine();
+            Console.Write("Nhap vao dia chi: ");
+            this.DiaChi = Console.ReadLine();
+        }
+
+        public void Nhap_list_MH()
+        {
+
+        }
     }
 }

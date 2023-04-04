@@ -17,6 +17,14 @@ namespace SinhVien
 
         public string MaKhoa { get => maKhoa; set => maKhoa = value; }
         public string TenKhoa { get => tenKhoa; set => tenKhoa = value; }
+
+        public void nhap_Khoa_Console()
+        {
+            Console.Write("Nhap vao ma khoa: ");
+            this.maKhoa = Console.ReadLine();
+            Console.Write("Nhap vao ten khoa: ");
+            this.tenKhoa = Console.ReadLine();
+        }
     }
 }
 

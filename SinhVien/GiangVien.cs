@@ -19,5 +19,12 @@ namespace SinhVien
 
         public string MaGV { get => maGV; set => maGV = value; }
         internal Khoa Khoa_GV { get => khoa_GV; set => khoa_GV = value; }
+
+        public void nhap_GV_Console()
+        {
+            Console.Write("Nhap vao ma GV: ");
+            this.maGV = Console.ReadLine();
+            this.khoa_GV.nhap_Khoa_Console();
+        }
     }
 }
