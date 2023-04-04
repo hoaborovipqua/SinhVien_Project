@@ -28,10 +28,3 @@ namespace SinhVien
     }
 }
 
-<<<<<<< HEAD
-// test gitt 
-
-// test 2
-=======
-// Phan Cong Hieu
->>>>>>> 73659e90bee555d274ce0d5690dc84281c62d0d0
