@@ -19,3 +19,7 @@ namespace SinhVien
         public string TenKhoa { get => tenKhoa; set => tenKhoa = value; }
     }
 }
+
+
+// da sua 
+// da update 
