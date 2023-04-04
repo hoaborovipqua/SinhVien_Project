@@ -25,6 +25,10 @@ namespace SinhVien
             Console.Write("Nhap vao ten khoa: ");
             this.tenKhoa = Console.ReadLine();
         }
+        public void xuat_Khoa_Console()
+        {
+            Console.Write("{0} / {1}", this.maKhoa, this.tenKhoa);
+        }
     }
 }
 

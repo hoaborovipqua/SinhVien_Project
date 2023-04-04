@@ -1,0 +1,14 @@
+C:\Documents\OOP_Uni\CodeOOPCsharp\SinhVien\SinhVien\bin\Debug\netcoreapp3.1\SinhVien.exe
+C:\Documents\OOP_Uni\CodeOOPCsharp\SinhVien\SinhVien\bin\Debug\netcoreapp3.1\SinhVien.deps.json
+C:\Documents\OOP_Uni\CodeOOPCsharp\SinhVien\SinhVien\bin\Debug\netcoreapp3.1\SinhVien.runtimeconfig.json
+C:\Documents\OOP_Uni\CodeOOPCsharp\SinhVien\SinhVien\bin\Debug\netcoreapp3.1\SinhVien.runtimeconfig.dev.json
+C:\Documents\OOP_Uni\CodeOOPCsharp\SinhVien\SinhVien\bin\Debug\netcoreapp3.1\SinhVien.dll
+C:\Documents\OOP_Uni\CodeOOPCsharp\SinhVien\SinhVien\bin\Debug\netcoreapp3.1\SinhVien.pdb
+C:\Documents\OOP_Uni\CodeOOPCsharp\SinhVien\SinhVien\obj\Debug\netcoreapp3.1\SinhVien.csproj.AssemblyReference.cache
+C:\Documents\OOP_Uni\CodeOOPCsharp\SinhVien\SinhVien\obj\Debug\netcoreapp3.1\SinhVien.GeneratedMSBuildEditorConfig.editorconfig
+C:\Documents\OOP_Uni\CodeOOPCsharp\SinhVien\SinhVien\obj\Debug\netcoreapp3.1\SinhVien.AssemblyInfoInputs.cache
+C:\Documents\OOP_Uni\CodeOOPCsharp\SinhVien\SinhVien\obj\Debug\netcoreapp3.1\SinhVien.AssemblyInfo.cs
+C:\Documents\OOP_Uni\CodeOOPCsharp\SinhVien\SinhVien\obj\Debug\netcoreapp3.1\SinhVien.csproj.CoreCompileInputs.cache
+C:\Documents\OOP_Uni\CodeOOPCsharp\SinhVien\SinhVien\obj\Debug\netcoreapp3.1\SinhVien.dll
+C:\Documents\OOP_Uni\CodeOOPCsharp\SinhVien\SinhVien\obj\Debug\netcoreapp3.1\SinhVien.pdb
+C:\Documents\OOP_Uni\CodeOOPCsharp\SinhVien\SinhVien\obj\Debug\netcoreapp3.1\SinhVien.genruntimeconfig.cache

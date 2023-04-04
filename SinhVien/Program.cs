@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace SinhVien
 {
@@ -6,7 +8,14 @@ namespace SinhVien
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ListSV listSV = new ListSV();
+            listSV.TaoList_SV_FrFile();
+
+            Console.WriteLine("List Sinh Vien : ");
+            listSV.XuatList_SV();
+
+            Console.ReadKey();
         }
+        
     }
 }

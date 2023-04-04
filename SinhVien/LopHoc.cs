@@ -16,6 +16,11 @@ namespace SinhVien
             this.tenLH = tenLH;
             this.GvCoVan = gvCoVan;
         }
+        public LopHoc(string maLH, string tenLH)
+        {
+            this.maLH = maLH;
+            this.tenLH = tenLH;
+        }
 
         public string MaLH { get => maLH; set => maLH = value; }
         public string TenLH { get => tenLH; set => tenLH = value; }
@@ -30,5 +35,9 @@ namespace SinhVien
             this.GvCoVan.nhap_GV_Console();
         }
 
+        public void xuat_LopHoc_Console()
+        {
+            Console.Write("{0} / {1} / {2}", this.maLH, this.tenLH, this.gvCoVan.HoTen);
+        }
     }
 }

@@ -21,6 +21,12 @@ namespace SinhVien
             this.khoa_sv = khoa_sv;
             LH_sv = lH_sv;
         }
+        public SinhVien(string maSV, Khoa khoa_sv, LopHoc lH_sv, string pSsn, string pHoTen, string pNgaySinh, string pDiaChi) : base(pSsn, pHoTen, pNgaySinh, pDiaChi)
+        {
+            this.maSV = maSV;
+            this.khoa_sv = khoa_sv;
+            LH_sv = lH_sv;
+        }
         public string MaSV { get => maSV; set => maSV = value; }
 
         public void nhapSV_Console()
@@ -42,6 +48,14 @@ namespace SinhVien
         public void Nhap_list_MH()
         {
 
+        }
+
+        public void xuat_SV()
+        {
+            Console.Write("{0} ", this.maSV);
+            this.khoa_sv.xuat_Khoa_Console();
+            this.LH_sv.xuat_LopHoc_Console();
+            Console.WriteLine("{0} / {1} / {2} / {3} ", this.Ssn, this.HoTen, this.NgaySinh, this.DiaChi);
         }
     }
 }
