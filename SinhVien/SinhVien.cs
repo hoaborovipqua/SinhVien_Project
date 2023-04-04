@@ -10,6 +10,7 @@ namespace SinhVien
         List<MonHoc> list_MH_SV = new List<MonHoc>();
         Khoa khoa_sv = new Khoa();
         LopHoc LH_sv = new LopHoc();
+        static public string tenTruong = "HUFI";
 
         public SinhVien() { }
 

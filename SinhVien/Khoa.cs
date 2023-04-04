@@ -20,6 +20,3 @@ namespace SinhVien
     }
 }
 
-
-// da sua 
-// da update 
