@@ -9,11 +9,11 @@ namespace SinhVien
     {
         public List<GiangVien> list_GV = new List<GiangVien>();
 
-        public void TaoList_GV_FrFile(string fileName)
+        public void TaoList_GV_FrFile(string filePath)
         {
-            StreamReader reader = new StreamReader(fileName);
+            StreamReader reader = new StreamReader(filePath);
             string line;
-            while ((line = reader.ReadLine()) != null)
+            while ((line = reader.ReadLine()) != null) 
             {
                 string[] lecInfo = line.Split(',');
                 Khoa tmp1 = new Khoa(lecInfo[1], lecInfo[2]);

@@ -23,11 +23,12 @@ namespace SinhVien
             }
         }
 
-        public void TaoList_SV_FrFile(string fileName)
+        public void TaoList_SV_FrFile(string filePath)
         {
-            StreamReader reader = new StreamReader(fileName);
+
+            StreamReader reader = new StreamReader(filePath);
             string line;
-            while((line = reader.ReadLine()) != null)
+            while ((line = reader.ReadLine()) != null)
             {
                 string[] studentInfo = line.Split(',');
                 Khoa tmp1 = new Khoa(studentInfo[1], studentInfo[2]);

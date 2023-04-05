@@ -10,15 +10,13 @@ namespace SinhVien
         static void Main(string[] args)
         {
             ListSV listSV = new ListSV();
-            string filePath1 = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "fileinput", "input_listSV.txt");
-            listSV.TaoList_SV_FrFile(filePath1);
+            listSV.TaoList_SV_FrFile(@"C:\Documents\OOP_Uni\CodeOOPCsharp\SinhVien\SinhVien\fileinput\input_listSV.txt");
 
             Console.WriteLine("List Sinh Vien : ");
             listSV.XuatList_SV();
 
             ListGV listGV = new ListGV();
-            string filePath2 = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "fileinput", "input_listGV.txt");
-            listGV.TaoList_GV_FrFile(filePath2);
+            listGV.TaoList_GV_FrFile(@"C:\Documents\OOP_Uni\CodeOOPCsharp\SinhVien\SinhVien\fileinput\input_listGV.txt");
 
             Console.WriteLine("List Giang Vien : ");
             listGV.XuatList_GV();
@@ -26,6 +24,5 @@ namespace SinhVien
 
             Console.ReadKey();
         }
-        
     }
 }
