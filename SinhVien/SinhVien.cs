@@ -45,12 +45,12 @@ namespace SinhVien
             this.DiaChi = Console.ReadLine();
         }
 
-        public void Nhap_list_MH()
+        public void Nhap_list_MH_SV()
         {
 
         }
 
-        public void xuat_SV()
+        public void xuat_SV_Console()
         {
             Console.Write("{0} ", this.maSV);
             this.khoa_sv.xuat_Khoa_Console();

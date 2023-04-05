@@ -1,10 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SinhVien.fielinput
-{
-    class input_listGV
-    {
-    }
-}
+﻿gv001, khoa01, cntt,  1001, Tran Minh Hoa, 10/02/2022, dubai
+gv002, khoa02, cntp,  1002, Tran Minh Hon, 11/03/2023, newyork
+gv003, khoa03, cnhh,  1003, Tran Minh Hiu, 14/04/2024, tokyo

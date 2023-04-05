@@ -23,9 +23,9 @@ namespace SinhVien
             }
         }
 
-        public void TaoList_SV_FrFile()
+        public void TaoList_SV_FrFile(string fileName)
         {
-            StreamReader reader = new StreamReader(@"C:\Documents\OOP_Uni\CodeOOPCsharp\SinhVien\SinhVien\fileinput\input_listSV.txt");
+            StreamReader reader = new StreamReader(fileName);
             string line;
             while((line = reader.ReadLine()) != null)
             {
@@ -41,7 +41,7 @@ namespace SinhVien
         {
             foreach(SinhVien x in this.list_SV)
             {
-                x.xuat_SV();
+                x.xuat_SV_Console();
             }
         }
     }

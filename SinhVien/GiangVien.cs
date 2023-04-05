@@ -26,5 +26,11 @@ namespace SinhVien
             this.maGV = Console.ReadLine();
             this.khoa_GV.nhap_Khoa_Console();
         }
+        public void xuat_GV_Console()
+        {
+            Console.Write("{0} ", this.maGV);
+            this.khoa_GV.xuat_Khoa_Console();
+            Console.WriteLine("{0} / {1} / {2} / {3} ", this.Ssn, this.HoTen, this.NgaySinh, this.DiaChi);
+        }
     }
 }
