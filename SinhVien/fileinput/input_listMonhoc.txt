@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SinhVien.fielinput
-{
-    class input_listLop
-    {
-    }
-}
+﻿MH001, Kinh Te Chinh Tri, 3, 
+MH002, Tu Tuong HCM, 2, 
+MH003, Triet Hoc MLN, 1, 
+MH004, Xac Xuat Thong Ke, 2, 
+MH005, Phuong Phap NCKH, 3, 

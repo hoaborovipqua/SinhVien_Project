@@ -21,5 +21,23 @@ namespace SinhVien
         public string TietHoc { get => tietHoc; set => tietHoc = value; }
 
 
+
+        public void DangKy_HP(string _pStudent_id, ListMonHoc CL_list_MH, ListSV CL_list_SV, ListGV CL_list_GV)
+        {
+            SinhVien sv = CL_list_SV.tim_SV(_pStudent_id);
+            if(sv != null)
+            {
+                CL_list_MH.nhap_list_MonHoc_FrFile(@"C:\Documents\OOP_Uni\CodeOOPCsharp\SinhVien\SinhVien\fileinput\input_listMonhoc.txt");
+                sv.xem_va_chon_MonHoc(CL_list_MH);
+                CL_list_GV.XuatList_GV();
+
+            }
+            else
+            {
+                Console.WriteLine("Khong ton tai sinh vien co ma la: {0} ", _pStudent_id);
+            }
+
+        }
+
     }
 }

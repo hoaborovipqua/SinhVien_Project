@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.IO;
 
 namespace SinhVien
 {
@@ -19,6 +20,12 @@ namespace SinhVien
             this.soTinChi = soTinChi;
             this.Diem_MH = diem_MH;
         }
+        public MonHoc(string maMH, string tenMH, int soTinChi)
+        {
+            this.maMH = maMH;
+            this.tenMH = tenMH;
+            this.soTinChi = soTinChi;
+        }
 
         public string MaMH { get => maMH; set => maMH = value; }
         public string TenMH { get => tenMH; set => tenMH = value; }
@@ -31,6 +38,23 @@ namespace SinhVien
             Console.Write("{0} ", this.tenMH);
             Console.Write("{0} ", this.soTinChi);
             this.Diem_MH.xuat_Diem_Console();
+        }
+
+       
+        public string xem_va_chon_TietHoc(string filePath)
+        {
+            List<string> list_Tiet = new List<string>();
+            StreamReader reader = new StreamReader(filePath);
+            string line;
+            while ((line = reader.ReadLine()) != null)
+            {
+                string[] time = line.Split(',');
+                Console.WriteLine(time[0]);
+                list_Tiet.Add(time[0]);
+            }
+            Console.WriteLine("Chon cac tiet hoc theo thu tu 1 - 5");
+            int n = Console.Read();
+            return list_Tiet[n - 1];
         }
     }
 }

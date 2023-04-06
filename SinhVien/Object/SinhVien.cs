@@ -45,10 +45,6 @@ namespace SinhVien
             this.DiaChi = Console.ReadLine();
         }
 
-        public void Nhap_list_MH_SV()
-        {
-
-        }
 
         public void xuat_SV_Console()
         {
@@ -57,5 +53,29 @@ namespace SinhVien
             this.LH_sv.xuat_LopHoc_Console();
             Console.WriteLine("{0} / {1} / {2} / {3} ", this.Ssn, this.HoTen, this.NgaySinh, this.DiaChi);
         }
+
+        public MonHoc xem_va_chon_MonHoc(ListMonHoc CL_list_MH)
+        {
+            foreach (MonHoc x in CL_list_MH.list_MH)
+            {
+                x.xuat_MH_Console();
+            }
+            Console.WriteLine("Chon cac mon hoc theo thu tu {0} - {1}", 0, CL_list_MH.list_MH.Count - 1);
+            int n = Console.Read();
+            return CL_list_MH.list_MH[n - 1];
+        }
+
+        public MonHoc xem_va_chon_GV(ListGV CL_list_GV)
+        {
+            foreach (MonHoc x in CL_list_MH.list_MH)
+            {
+                x.xuat_MH_Console();
+            }
+            Console.WriteLine("Chon cac mon hoc theo thu tu {0} - {1}", 0, CL_list_MH.list_MH.Count - 1);
+            int n = Console.Read();
+            return CL_list_MH.list_MH[n - 1];
+        }
+
+
     }
 }

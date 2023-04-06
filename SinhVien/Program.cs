@@ -22,6 +22,9 @@ namespace SinhVien
             listGV.XuatList_GV();
 
 
+
+
+
             Console.ReadKey();
         }
     }

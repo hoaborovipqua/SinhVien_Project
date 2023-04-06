@@ -45,5 +45,29 @@ namespace SinhVien
                 x.xuat_SV_Console();
             }
         }
+
+        public bool check_id(string _pStudent_id)
+        {
+            if (this.list_SV.Exists(x => x.MaSV == _pStudent_id)) return true;
+            else return false;
+        }
+
+        public SinhVien tim_SV(string _pStudent_id)
+        {
+            SinhVien result = list_SV.Find(
+            delegate (SinhVien sv)
+            {
+                return sv.MaSV == _pStudent_id;
+            }
+            );
+            if (result != null)
+            {
+                return result;
+            }
+            else
+            {
+                return null;
+            }
+        }
     }
 }
