@@ -65,15 +65,15 @@ namespace SinhVien
             return CL_list_MH.list_MH[n - 1];
         }
 
-        public MonHoc xem_va_chon_GV(ListGV CL_list_GV)
+        public GiangVien xem_va_chon_GV(ListGV CL_list_GV)
         {
-            foreach (MonHoc x in CL_list_MH.list_MH)
+            foreach (GiangVien x in CL_list_GV.list_GV)
             {
-                x.xuat_MH_Console();
+                x.xuat_GV_Console();
             }
-            Console.WriteLine("Chon cac mon hoc theo thu tu {0} - {1}", 0, CL_list_MH.list_MH.Count - 1);
+            Console.WriteLine("Chon cac mon hoc theo thu tu {0} - {1}", 0, CL_list_GV.list_GV.Count - 1);
             int n = Console.Read();
-            return CL_list_MH.list_MH[n - 1];
+            return CL_list_GV.list_GV[n - 1];
         }
 
 
