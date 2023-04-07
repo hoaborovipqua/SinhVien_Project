@@ -25,5 +25,12 @@ namespace SinhVien
         public string HoTen { get => hoTen; set => hoTen = value; }
         public string NgaySinh { get => ngaySinh; set => ngaySinh = value; }
         public string DiaChi { get => diaChi; set => diaChi = value; }
+
+        public virtual void xuat()
+        {
+            Console.WriteLine("{0} / {1} / {2} / {3} ", this.ssn, this.hoTen, this.ngaySinh, this.diaChi);
+        }
+
+
     }
 }

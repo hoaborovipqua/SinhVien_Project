@@ -26,7 +26,7 @@ namespace SinhVien
             this.maGV = Console.ReadLine();
             this.khoa_GV.nhap_Khoa_Console();
         }
-        public void xuat_GV_Console()
+        public override void xuat()
         {
             Console.Write("{0} ", this.maGV);
             this.khoa_GV.xuat_Khoa_Console();

@@ -46,7 +46,7 @@ namespace SinhVien
         }
 
 
-        public void xuat_SV_Console()
+        public override void xuat()
         {
             Console.Write("{0} ", this.maSV);
             this.khoa_sv.xuat_Khoa_Console();
