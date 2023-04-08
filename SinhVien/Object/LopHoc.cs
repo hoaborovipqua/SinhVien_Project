@@ -37,7 +37,7 @@ namespace SinhVien
 
         public void xuat_LopHoc_Console()
         {
-            Console.Write("{0} / {1} / {2}", this.maLH, this.tenLH, this.gvCoVan.HoTen);
+            Console.Write("{0} / {1}", this.maLH, this.tenLH, this.gvCoVan.HoTen); // co the xuat gvCoVan O day
         }
     }
 }

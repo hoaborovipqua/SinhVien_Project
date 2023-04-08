@@ -26,7 +26,7 @@ namespace SinhVien
         {
             foreach (GiangVien x in this.list_GV)
             {
-                x.xuat_GV_Console();
+                x.xuat();
             }
         }
 

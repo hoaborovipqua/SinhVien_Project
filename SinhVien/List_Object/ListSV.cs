@@ -42,7 +42,8 @@ namespace SinhVien
         {
             foreach(SinhVien x in this.list_SV)
             {
-                x.xuat_SV_Console();
+                x.xuat();
+                Console.Write("\n");
             }
         }
 

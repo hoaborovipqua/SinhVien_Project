@@ -26,8 +26,8 @@ namespace SinhVien
             this.tenKhoa = Console.ReadLine();
         }
         public void xuat_Khoa_Console()
-        {
-            Console.Write("{0} / {1}", this.maKhoa, this.tenKhoa);
+        { 
+            Console.Write("{0} / {1} / ", this.maKhoa, this.tenKhoa);
         }
     }
 }

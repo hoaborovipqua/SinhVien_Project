@@ -21,10 +21,6 @@ namespace SinhVien
             Console.WriteLine("List Giang Vien : ");
             listGV.XuatList_GV();
 
-
-
-
-
             Console.ReadKey();
         }
     }

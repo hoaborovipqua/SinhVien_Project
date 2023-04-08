@@ -10,10 +10,7 @@ namespace SinhVien
 
         public static string gioiTinh = "NU";
 
-        public Nguoi()
-        {
-
-        }
+        public Nguoi() { }
         public Nguoi(string ssn, string hoTen, string ngaySinh, string diaChi)
         {
             this.ssn = ssn;

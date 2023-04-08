@@ -48,10 +48,9 @@ namespace SinhVien
 
         public override void xuat()
         {
-            Console.Write("{0} ", this.maSV);
+            Console.Write("{0} /", this.maSV);
             this.khoa_sv.xuat_Khoa_Console();
             this.LH_sv.xuat_LopHoc_Console();
-            Console.WriteLine("{0} / {1} / {2} / {3} ", this.Ssn, this.HoTen, this.NgaySinh, this.DiaChi);
         }
 
         public MonHoc xem_va_chon_MonHoc(ListMonHoc CL_list_MH)
@@ -69,7 +68,7 @@ namespace SinhVien
         {
             foreach (GiangVien x in CL_list_GV.list_GV)
             {
-                x.xuat_GV_Console();
+                x.xuat();
             }
             Console.WriteLine("Chon cac mon hoc theo thu tu {0} - {1}", 0, CL_list_GV.list_GV.Count - 1);
             int n = Console.Read();

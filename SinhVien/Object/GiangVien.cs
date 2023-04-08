@@ -28,9 +28,9 @@ namespace SinhVien
         }
         public override void xuat()
         {
-            Console.Write("{0} ", this.maGV);
+            Console.Write("{0} /", this.maGV);
             this.khoa_GV.xuat_Khoa_Console();
-            Console.WriteLine("{0} / {1} / {2} / {3} ", this.Ssn, this.HoTen, this.NgaySinh, this.DiaChi);
+            base.xuat();
         }
     }
 }
