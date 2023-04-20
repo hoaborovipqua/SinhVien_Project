@@ -9,17 +9,17 @@ namespace SinhVien
     class TraPhongHoc
     {
         // maph_mamh la khoa chinh
-        string MaPH_MaMH, tiet_Hoc;
+        string MaPH_MaMH, tietHoc;
 
-        public TraPhongHoc() { }
-        public TraPhongHoc(string maPH_MaMH, string tiet_Hoc)
+        public TraPhongHoc(string maPH_MaMH, string tietHoc)
         {
-            MaPH_MaMH1 = maPH_MaMH;
-            this.Tiet_Hoc = tiet_Hoc;
+            MaPH_MaMH = maPH_MaMH;
+            this.tietHoc = tietHoc;
         }
 
-        public string MaPH_MaMH1 { get => MaPH_MaMH; set => MaPH_MaMH = value; }
-        public string Tiet_Hoc { get => tiet_Hoc; set => tiet_Hoc = value; }
+        public TraPhongHoc() { }
 
+        public string MaPH_MaMH1 { get => MaPH_MaMH; set => MaPH_MaMH = value; }
+        public string TietHoc { get => tietHoc; set => tietHoc = value; }
     }
 }

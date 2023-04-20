@@ -51,9 +51,11 @@ namespace SinhVien
             Console.Write("{0} /", this.maSV);
             this.khoa_sv.xuat_Khoa_Console();
             this.LH_sv.xuat_LopHoc_Console();
+            base.xuat();
         }
 
-        public MonHoc xem_va_chon_MonHoc(ListMonHoc CL_list_MH)
+        // xem list mon học và chọn 
+        public MonHoc xem_va_chon(ListMonHoc CL_list_MH)
         {
             foreach (MonHoc x in CL_list_MH.list_MH)
             {
@@ -64,7 +66,8 @@ namespace SinhVien
             return CL_list_MH.list_MH[n - 1];
         }
 
-        public GiangVien xem_va_chon_GV(ListGV CL_list_GV)
+        // xem list giảng viên và chọn 
+        public GiangVien xem_va_chon(ListGV CL_list_GV)
         {
             foreach (GiangVien x in CL_list_GV.list_GV)
             {

@@ -4,12 +4,12 @@ using System.Text;
 
 
 // Duoc tao khi sinh vien ca mon hoc duoc tao 
-namespace SinhVien.Relation
+namespace SinhVien
 {
     class TraDiem
     {
         string MaSV_MaMH;
-        Diem diem_SV = new Diem();
+        Diem diem_So = new Diem();
 
         public TraDiem() { }
         public TraDiem(string maSV_MaMH, Diem diem_SV)
@@ -19,8 +19,6 @@ namespace SinhVien.Relation
         }
 
         public string MaSV_MaMH1 { get => MaSV_MaMH; set => MaSV_MaMH = value; }
-        internal Diem Diem_SV { get => diem_SV; set => diem_SV = value; }
-
-
+        internal Diem Diem_SV { get => diem_So; set => diem_So = value; }
     }
 }

@@ -9,7 +9,7 @@ namespace SinhVien
     {
         string maMH, tenMH;
         int soTinChi;
-        Diem diem_MH = new Diem();
+        Diem diem_MH = new Diem(); // có bỏ trong này không?? 
 
         public MonHoc() { }
 
